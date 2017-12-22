@@ -53,3 +53,20 @@ PUSHER_APP_SECRET=
 11. and run "php artisan serve"
 
 enjoy!!.
+
+---------------------------------------------------------
+# Keep fork up to date
+
+### 1. Clone your fork:
+
+    git clone git@github.com:YOUR-USERNAME/thai-CRM.git
+
+### 2. Add remote from original repository in your forked repository: 
+
+    cd into/cloned/fork-repo
+    git remote add upstream git://github.com/thai-laravel/thai-CRM.git
+    git fetch upstream
+
+### 3. Updating your fork from original repo to keep up with their changes:
+
+    git pull upstream master
